@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .get-started-btn:hover {
-  background: #3ac162;
+  
   color: #fff;
 }
 .get-started-btn:hover:disabled {
@@ -1264,6 +1264,9 @@ section {
   color: #37423b;
   font-size: 14px;
   background: #eef0ef;
+  position:relative;
+  bottom:0;
+  width:100%; 
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
@@ -1403,6 +1406,7 @@ section {
   width:80vw;
   height:100vh;
   padding-top: 25px;
+  border : 3px solid #EEE;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
