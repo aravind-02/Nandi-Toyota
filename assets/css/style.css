@@ -1504,9 +1504,29 @@ section {
     background-color: #21bf73
 }
 
+.ppt-headings{
+  font-weight: bold;
+}
+
+.image-container img{
+  display: block;
+  margin: auto;
+  max-width: 90vw;
+}
+
+.image-container p{
+  text-align: center;
+  text-align: left;
+}
+
 @media(max-width:576px) {
     .question {
         width: 100%;
         word-spacing: 2px
+    }
+    .image-container{
+      display: block;
+      margin: auto;
+      max-width: 80vw;
     }
 }
